@@ -4,6 +4,11 @@ date: "2019-06-29T22:30:03.284Z"
 description: ""
 ---
 
+### Important Note
+This article is not completed yet. I'll continue it.
+
+---
+
 Object Oriented Programming is a programming paradigm that uses objects.
 Objects are instance of the classes. Classes are kind of data structure that holds
 data in their attributes. Except holding data, it has procedures. In object oriented programming,
