@@ -1,6 +1,6 @@
 ---
 title: Hello Again!
-date: "2019-06-29"
+date: "2019-06-29T15:20:00.000Z"
 ---
 
 Hey! What's going on here? What? You started again to write blog? Huh! Cool!
