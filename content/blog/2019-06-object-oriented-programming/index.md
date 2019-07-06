@@ -70,3 +70,52 @@ $myComputer->runCpu(); // I encounter with an error, I'm not be able to run cpu 
 
 $myComputer->on(); // the computer will handle all process instead of us
 ```
+
+## Inheritance
+
+Thanks to inheritance, we can derive a class from another one. What's that mean? Actually,
+that's the way copy all behaviors and attributes of a class to the another one. In that way,
+it prevents the duplicates and provides us to re-use existing one. Also we can apply abstraction
+in that way.
+
+Let's explain in with an example
+
+```php
+<?php
+
+class Person
+{
+    private $name;
+
+    public function __construct($name)
+    {
+        $this->name = $name;
+    }
+
+    public function sayName()
+    {
+        echo $this->name;
+    }
+}
+
+class Programmer extends Person
+{
+
+}
+
+$programmer = new Programmer('Selahattin');
+$programmer->sayName(); // output => 'Selahattin'
+```
+
+So, how is it working without have `sayName` method?
+Yes, you're right it has not `sayName` method in own class definition.
+But it extends the `Person` class. So we applied inheritance from Person to Programmer class.
+So, thanks to its parent class, `Programmer` class has `sayName` method as well.
+
+## Abstraction
+
+...
+
+## Polymorphism
+
+...
