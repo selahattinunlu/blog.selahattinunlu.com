@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <%- css('index.css') %>
+  </head>
+  <body class="bg-gray-100">
+    <div class="container mx-auto px-64 pt-20 pb-20">
+      <header class="mb-10">
+        <h1 class="text-4xl text-center">
+          <a href="/">Selahattin's Blog</a>
+        </h1>
+      </header>
+
+      <div>
+        <%- body %>
+      </div>
+    </div>
+
+    <%- js('index.js') %>
+  </body>
+</html>
