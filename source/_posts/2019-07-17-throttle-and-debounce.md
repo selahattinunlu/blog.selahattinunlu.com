@@ -1,7 +1,7 @@
 ---
 title: Throttle and Debounce
 date: 2019/07/17
-description: ""
+description: "Throttle and Debounce"
 ---
 
 I think they are so cool techniques to prevent running a function too many times.

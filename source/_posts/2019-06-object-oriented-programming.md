@@ -1,7 +1,7 @@
 ---
 title: Object Oriented Programming
 date: 2019/06/29 00:30:00
-description: ""
+description: "Object Oriented Programming"
 ---
 
 ### Important Note
