@@ -1,6 +1,21 @@
 <div class="bg-white shadow rounded-lg p-5 md:p-10">
-  <header class="mb-10">
+  <header class="mb-5">
     <h2 class="text-2xl md:text-4xl text-gray-700"><%= page.title %></h2>
+
+    <div class="border-t border-b py-5 mt-5">
+      <div>
+        <span class="text-gray-600 text-sm">
+          <strong>It was published </strong>
+          <%= page.date.fromNow() %>
+        </span>
+      </div>
+      <div>
+        <span class="text-gray-600 text-sm">
+          <strong>It was updated </strong>
+          <%= page.updated.fromNow() %>
+        </span>
+      </div>
+    </div>
   </header>
 
   <article id="article">
