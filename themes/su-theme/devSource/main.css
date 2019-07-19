@@ -1,3 +1,11 @@
+#article br {
+  content: " ";
+}
+
+#article br:after {
+  content: " ";
+}
+
 #article hr {
   @apply border-b;
 }
@@ -52,4 +60,3 @@
     @apply text-xl;
   }
 }
-

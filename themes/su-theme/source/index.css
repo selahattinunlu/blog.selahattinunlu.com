@@ -35255,6 +35255,14 @@ video {
   }
 }
 
+#article br {
+  content: " ";
+}
+
+#article br:after {
+  content: " ";
+}
+
 #article hr {
   border-bottom-width: 1px;
 }
@@ -35310,7 +35318,6 @@ video {
     font-size: 1.25rem;
   }
 }
-
 
 
 /*# sourceMappingURL=/index.css.map */
