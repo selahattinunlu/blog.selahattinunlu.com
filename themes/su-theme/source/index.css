@@ -35255,6 +35255,14 @@ video {
   }
 }
 
+#article hr {
+  border-bottom-width: 1px;
+}
+
+#article a {
+  color: #3182ce;
+}
+
 #article h2,
 #article h3,
 #article h4,
@@ -35262,35 +35270,45 @@ video {
   color: #2d3748;
 }
 
+#article p {
+  color: #4a5568;
+  font-size: 0.875rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 #article h2 {
-  font-size: 2.25rem;
-}
-
-#article h3 {
-  font-size: 1.875rem;
-}
-
-#article h4 {
   font-size: 1.5rem;
 }
 
-#article h5 {
+#article h3 {
   font-size: 1.25rem;
 }
 
-#article p {
-  color: #4a5568;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  font-size: 1.25rem;
+#article h4 {
+  font-size: 1.125rem;
 }
 
-#article hr {
-  border-bottom-width: 1px;
-}
+@media (min-width: 768px) {
+  #article h2 {
+    font-size: 2.25rem;
+  }
 
-#article a {
-  color: #3182ce;
+  #article h3 {
+    font-size: 1.875rem;
+  }
+
+  #article h4 {
+    font-size: 1.5rem;
+  }
+
+  #article h5 {
+    font-size: 1.25rem;
+  }
+
+  #article p {
+    font-size: 1.25rem;
+  }
 }
 
 
