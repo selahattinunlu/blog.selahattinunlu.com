@@ -68,3 +68,6 @@ Stubs, fixtures, mocks, spies etc. I'm gonna continue with this.
 Further reading resources:
 
 - https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2019-264e19514d0a
+- https://www.ijera.com/papers/Vol4_issue4/Version%209/S440999102.pdf
+- https://www.softwaretestingmaterial.com/100-software-testing-interview-questions/
+- https://www.edureka.co/blog/interview-questions/software-testing-interview-questions/
