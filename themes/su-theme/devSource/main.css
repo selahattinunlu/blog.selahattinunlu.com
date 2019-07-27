@@ -39,6 +39,17 @@
   @apply text-lg;
 }
 
+#article ul {
+  @apply pl-10;
+  @apply mb-5;
+}
+
+#article li {
+  list-style: circle;
+  @apply text-gray-700;
+  @apply text-lg;
+}
+
 @screen md {
   #article h2 {
     @apply text-4xl;
