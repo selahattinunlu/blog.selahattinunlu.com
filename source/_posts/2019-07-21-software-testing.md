@@ -41,7 +41,7 @@ The goal of the integration testing is combine parts of code and correct them to
 ![](https://miro.medium.com/max/300/1*xHibbXdcePT0GtpeZRgxSA.gif)
 
 
-#### Functional Tests
+#### Functional Testing
 
 Although unit testing and integration testing seem enough, it's not. The next level of testing is **Functional Testing**.
 
