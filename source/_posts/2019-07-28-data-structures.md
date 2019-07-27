@@ -43,3 +43,5 @@ Set has following methods commonly:
 **Resources**
 
 - [Youtube - Data Structures and Algorithms in JavaScript - Full Course for Beginners](https://www.youtube.com/watch?v=t2CEgPsws3U)
+- https://www.geeksforgeeks.org/data-structures/
+- https://searchsqlserver.techtarget.com/definition/data-structure
