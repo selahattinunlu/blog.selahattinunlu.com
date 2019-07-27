@@ -61,7 +61,25 @@ We learned functional and non-functional test levels. The combination of functio
 
 ## Some Terms About Software Testing
 
-Stubs, fixtures, mocks, spies etc. I'm gonna continue with this.
+### Mocks
+
+Mocks mimic the behavior of real objects. Mocks are fake methods. In unit tests, you need to focus only one unit to test it. The other parts could be mocks.
+
+Let's assume you're gonna test user registration and send a welcome email to the user after the user is registered. While you testing it, you might not want to send a real email. You might only want to ensure the method that will send the email is called. So in this case, you're gonna need to use **mocks**. Because when you mock email sender, it won't run it. Instead, it's gonna give you information whether it's called or not.
+
+### Stubs
+
+It seems like mocks. But there is further more than. In mocks, we can ensure that function is called or not. However in stubs, we can specify result we expected when the method is called.
+
+Let's assume we have an `Auth` class and it's `guest` method gives us that user is logged in or not. In that case, if we don't care the real result, we can use stubs. We can say basically, I want to get `true` as result when `Auth's guest` method is called. After we defined it, the real `Auth` class is not gonna be runned. Instead, stub is gonna give us the result what we expected.
+
+### Fixtures
+
+...
+
+### Spies
+
+....
 
 ---
 
