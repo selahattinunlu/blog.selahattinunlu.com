@@ -35302,6 +35302,12 @@ video {
   margin-bottom: 1.25rem;
 }
 
+#article p code {
+  background-color: #e2e8f0;
+  font-size: 1.125rem;
+  padding: 0.25rem;
+}
+
 #article li {
   list-style: circle;
   color: #4a5568;

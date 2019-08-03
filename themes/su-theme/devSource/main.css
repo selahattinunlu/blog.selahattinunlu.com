@@ -44,6 +44,12 @@
   @apply mb-5;
 }
 
+#article p code {
+  @apply bg-gray-300;
+  @apply text-lg;
+  @apply p-1;
+}
+
 #article li {
   list-style: circle;
   @apply text-gray-700;
